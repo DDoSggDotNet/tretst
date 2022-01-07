@@ -1,0 +1,8 @@
+local XMi = game.Players.LocalPlayer:FindFirstChild("XM81")
+local effectu6 = XMi.Configuration
+
+effectu6.ShotCooldown.Value = 0
+effectu6.AmmoCapacity.Value = 9999999
+effectu6.RecoilMin.Value = 0
+effectu6.RecoilMax.Value = 0
+effectu6.RecoilDecay.Value = 0

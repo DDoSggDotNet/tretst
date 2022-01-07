@@ -1,0 +1,8 @@
+local UMPi = game.Players.LocalPlayer:FindFirstChild("UMP")
+local effectu3 = UMPi.Configuration
+
+effectu3.ShotCooldown.Value = 0
+effectu3.AmmoCapacity.Value = 9999999
+effectu3.RecoilMin.Value = 0
+effectu3.RecoilMax.Value = 0
+effectu3.RecoilDecay.Value = 0

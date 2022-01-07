@@ -1,0 +1,8 @@
+local SCARi = game.Players.LocalPlayer:FindFirstChild("SCAR")
+local effectu4 = SCARi.Configuration
+
+effectu4.ShotCooldown.Value = 0
+effectu4.AmmoCapacity.Value = 9999999
+effectu4.RecoilMin.Value = 0
+effectu4.RecoilMax.Value = 0
+effectu4.RecoilDecay.Value = 0
