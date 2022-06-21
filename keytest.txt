@@ -18,10 +18,10 @@ if Input == password then
 end
 print("check wrong")
 if Input ~= password then
-rconsoleprint("Wrong key...")
-rconsolesettitle("Platinum-Hub -- Wrong Key.")
-wait(1)
-done = false
-rconsoleclear()
+	rconsoleprint("Wrong key...")
+	rconsolesettitle("Platinum-Hub -- Wrong Key.")
+	wait(1)
+	done = false
+	rconsoleclear()
 end
 until done == true
