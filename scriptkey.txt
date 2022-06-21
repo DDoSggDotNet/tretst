@@ -2,10 +2,10 @@
 local password = "xXQpRvrlygwINQmWCxoYvqaDjGw0wxqIT6jbn1kMWAcTvPVqS3jl5E9AeRiK7hpI"
 
 rconsolecreate()
-rconsolesettitle("Platinum-Hub -- Checking Key..")
-rconsoleprint("Key\n> ")
 local done = false
 repeat
+rconsolesettitle("Platinum-Hub -- Checking Key..")
+rconsoleprint("Key\n> ")
 local Input = rconsoleinput("")
 print("Checking")
 if Input == password then
