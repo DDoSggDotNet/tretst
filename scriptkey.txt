@@ -11,6 +11,7 @@ print("Checking")
 if Input == password then
 	rconsolesettitle("Platinum-Hub -- Key Checked!")
 	rconsoleprint("Checked!")
+	print("Checked!")
 	wait(0.75)
 	consoledestroy()
 	done = true
