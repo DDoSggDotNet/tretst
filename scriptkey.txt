@@ -1,6 +1,17 @@
 
 local password = "xXQpRvrlygwINQmWCxoYvqaDjGw0wxqIT6jbn1kMWAcTvPVqS3jl5E9AeRiK7hpI"
 
+
+local isf = isfile("Platinum-Hub.Key")
+if isf == true then
+	local rf = readfile("Platinum-Hub.Key")
+	if rf == password then
+		print("Checked!")
+		wait(0.75
+		return
+	end
+end
+
 rconsolecreate()
 local done = false
 repeat
