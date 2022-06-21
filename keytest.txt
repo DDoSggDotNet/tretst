@@ -17,10 +17,7 @@ if Input == password then
 	return
 end
 print("check wrong")
-print("Input> ".. Input)
-print("Keyyy> ".. pass)
-if Input ~= pass then
-print("here")
+if Input ~= password then
 rconsoleprint("Wrong key...")
 rconsolesettitle("Platinum-Hub -- Wrong Key.")
 wait(1)
